@@ -3,5 +3,6 @@ Wordpress plugin to test shopp('purchase.item-product-*'); calls as an addition 
 
 ## Implemented ThemeAPI Calls:
 * shopp('purchase.item-product-coverimage');
+    * Must be used inside of a shopp('purchase.items') loop. 
     * Accepts same options as product.coverimage.
     * https://shopplugin.net/api/product-coverimage/
